@@ -27,14 +27,15 @@ transition: all 1s;
 }
 
 #mensaje{
-    font-family: Arial, Helvetica, Sans-serif;
+  
     color: black;
     background-color:#f0b49e;
     font-size: 50px;
+      font-family: "Constantia", serif;
 }
 #parrafo{
     font-size: 15px;
-
+font-family: "Consolas", monospace;
 
 
 }
