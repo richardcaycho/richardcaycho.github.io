@@ -1,0 +1,41 @@
+header{
+
+background-color:rosybrown;
+margin-top: 150px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 0px;
+padding-right:0px ;
+animation: mover_arriba 1s ease-in; 
+transition: all 1s;
+}
+
+footer{
+padding-bottom: 10px;
+padding-top: 10px;
+background-color:rosybrown;
+animation: mover_arriba 1s ease-in; 
+transition: all 1s;
+}
+@keyframes mover_arriba {
+    0%{
+        transform: translateY(300px);
+    }
+    100%{
+        transform:translateY(0px) ;
+    }
+}
+
+#mensaje{
+    font-family: Arial, Helvetica, Sans-serif;
+    color: black;
+    background-color:#f0b49e;
+    font-size: 50px;
+}
+#parrafo{
+    font-size: 15px;
+
+
+
+}
+
